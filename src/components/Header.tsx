@@ -1,8 +1,8 @@
-import "./Header.css";
+import "../styles/Header.css";
 
 export default function Header() {
 
     return (
-        <h1>Title</h1>
+        <h1 className="header-in-page">My Travel Traces</h1>
     )
 }

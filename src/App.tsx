@@ -1,3 +1,4 @@
+import "./styles/App.css";
 import Header from "./components/Header.tsx";
 import BlogPage from "./components/BlogPage.tsx";
 
