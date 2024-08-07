@@ -1,3 +1,32 @@
+import Header from "./Header.tsx";
+import {Blog} from "./models.tsx";
+
+export default function App() {
+
+    const greeting: string = "Hello";
+
+    const myBlogEntry: Blog = {
+        id: "1",
+        title: "My Dinner",
+        text: "Korean Food"
+    }
+
+    const add = (num1: number, num2: number) => {
+        return num1 + num2;
+    }
+
+    return (
+        <div>
+            <Header />
+            <p>{greeting + "!!!"}</p>
+            <p>{add(8, 9)}</p>
+            <button>Button</button>
+            <p>{myBlogEntry.title}</p>
+        </div>
+    )
+}
+
+/*
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -33,3 +62,4 @@ function App() {
 }
 
 export default App
+*/
