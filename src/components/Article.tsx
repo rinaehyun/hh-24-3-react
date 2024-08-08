@@ -1,11 +1,16 @@
 
-export default function Article() {
+type ArticleProps = {
+    city: string,
+    date: string
+}
+
+export default function Article(props: ArticleProps) {
 
     return (
         <section className="section-text">
             <div className="text-title">
-                <h3 className="sub-header-margin">Cappadocia, Turkey</h3>
-                <time>17.06.2023</time>
+                <h3 className="sub-header-margin">{props.city}</h3>
+                <time>{props.date}</time>
             </div>
             <div className="text-description">
                 <p className="description">
