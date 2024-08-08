@@ -7,9 +7,8 @@ import { BlogProps } from "../models/ComponentProps.tsx";
 export default function Blog(props: BlogProps) {
 
     return (
-        <article>
+        <article className={"blog-card"}>
             <header className="header-margin">
-                {/*<h2>{props.country}</h2>*/}
             </header>
             <div className="outer-container">
                 <Article
@@ -18,7 +17,7 @@ export default function Blog(props: BlogProps) {
                     text={props.text}
                     link={props.link}
                     onClick={props.onClick} />
-                <ArticlePhoto/>
+                <ArticlePhoto img={props.img}/>
             </div>
         </article>
     );

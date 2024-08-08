@@ -19,8 +19,9 @@ export default function BlogPage() {
                     text={data.text}
                     link={data.link}
                     onClick={handleEvent}
+                    img={data.img}
                 />
-            ))};
+            ))}
         </div>
     )
 }

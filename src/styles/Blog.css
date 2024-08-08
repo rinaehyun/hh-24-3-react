@@ -6,6 +6,17 @@ h2 {
     #color: blueviolet;
 }
 
+.blog-card {
+    #background-color: #747bff;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.blog-card:hover {
+    box-shadow: 0 0 15px rgba(33,33,33,.2);
+}
+
 .header-margin {
     margin: 30px 40px;
     text-align: left;
@@ -38,7 +49,7 @@ h2 {
 
 .section-img {
     float: right;
-    height: 500px;
+    height: 450px;
 }
 
 .image-trip {

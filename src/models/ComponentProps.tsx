@@ -5,7 +5,8 @@ export type BlogProps = {
     date: string,
     text: string,
     link: string,
-    onClick: () => void
+    onClick: () => void,
+    img: string
 }
 
 export type ArticleProps = {
@@ -14,4 +15,8 @@ export type ArticleProps = {
     text: string,
     link: string,
     onClick: () => void
+}
+
+export type PhotoProps = {
+    img: string
 }

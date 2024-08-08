@@ -1,3 +1,7 @@
+import cappadocia from '../images/cappadocia.jpeg';
+import split from '../images/split.jpeg';
+import allgaeu from '../images/allgaeu.jpeg';
+import barcelona from '../images/barcelona.jpeg';
 
 export const ArticleData = [
     {
@@ -8,7 +12,8 @@ export const ArticleData = [
             "It lies on the eastern shore of the Adriatic Sea and is spread over a central peninsula and its surroundings. " +
             "An intraregional transport hub and popular tourist destination, the city is linked to the Adriatic islands and the Apennine Peninsula. " +
             "More than 900,000 tourists visit Split each year.",
-        link: "https://en.wikipedia.org/wiki/Split,_Croatia"
+        link: "https://en.wikipedia.org/wiki/Split,_Croatia",
+        img: split
     },
     {
         country: "Turkey",
@@ -16,7 +21,8 @@ export const ArticleData = [
         date: "16.06.2023 - 19.06.2023",
         text: " Lying in south central Turkey, the moonscaped region of Cappadocia, southeast of Ankara, is\n" +
             "most famous for unique geological features called fairy chimneys.\n",
-        link: "https://en.wikipedia.org/wiki/Cappadocia"
+        link: "https://en.wikipedia.org/wiki/Cappadocia",
+        img: cappadocia
     },
     {
         country: "Germany",
@@ -25,7 +31,8 @@ export const ArticleData = [
         text: " The Allgäu is a region in Swabia in southern Germany. It covers the south of Bavarian Swabia, southeastern Baden-Württemberg, and parts of Austria. \n" +
             "The region stretches from the pre-alpine lands up to the Alps. The main rivers flowing through the Allgäu are the Lech and Iller. \n" +
             "Allgäu is not an administrative unit.",
-        link: "https://en.wikipedia.org/wiki/Allg%C3%A4u"
+        link: "https://en.wikipedia.org/wiki/Allg%C3%A4u",
+        img: allgaeu
     },
     {
         country: "Spain",
@@ -37,6 +44,7 @@ export const ArticleData = [
             "making it the fifth most populous urban area of the European Union after Paris, the Ruhr area, Madrid and Milan. \n" +
             "It is one of the largest metropolises on the Mediterranean Sea, located on the coast between the mouths of the rivers Llobregat and Besòs, \n" +
             "bounded to the west by the Serra de Collserola mountain range. ",
-        link: "https://en.wikipedia.org/wiki/Barcelona"
+        link: "https://en.wikipedia.org/wiki/Barcelona",
+        img: barcelona
     }
 ]

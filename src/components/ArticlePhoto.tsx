@@ -1,12 +1,12 @@
-import img from '../images/image1.jpeg';
+import {PhotoProps} from "../models/ComponentProps.tsx";
 
-export default function ArticlePhoto() {
+export default function ArticlePhoto(props: PhotoProps) {
 
     return (
         <section className="section-img">
             <img
                 className="image-trip"
-                src={img}
+                src={props.img}
                 alt="trip"
             />
         </section>
