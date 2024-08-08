@@ -27,9 +27,13 @@ h2 {
     float: left;
     flex: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-direction: column;
     text-align: left;
+}
+
+.text-title {
+    margin-bottom: 50px;
 }
 
 .section-img {

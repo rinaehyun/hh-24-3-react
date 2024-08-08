@@ -1,49 +1,26 @@
 import Blog from "./Blog.tsx";
+import { ArticleData } from "../data/ArticleHeaders.tsx";
 
-const Travel = [
-    {
-        country: "Turkey",
-        city: "Cappadocia",
-        date: "17.06.2023"
-    },
-    {
-        country: "Germany",
-        city: "Stuttgart",
-        date: "20.12.2024"
-    },
-    {
-        country: "Germany",
-        city: "Stuttgart",
-        date: "20.12.2024"
-    },
-    {
-        country: "Germany",
-        city: "Stuttgart",
-        date: "20.12.2024"
-    },
-    {
-        country: "Germany",
-        city: "Stuttgart",
-        date: "20.12.2024"
-    }
-
-]
 
 export default function BlogPage() {
 
+    function handleEvent() {
+        window.alert("This is an example of callback() as props in React.");
+    }
+
     return (
         <div>
-            {Travel.map((travel) => (
+            {ArticleData.map((data) => (
                 <Blog
-                    key={travel.city}
-                    country={travel.country}
-                    city={travel.city}
-                    date={travel.date}
+                    key={data.city}
+                    country={data.country}
+                    city={data.city}
+                    date={data.date}
+                    text={data.text}
+                    link={data.link}
+                    onClick={handleEvent}
                 />
             ))};
-
-            {/*<Blog country={"Turkey"} city={"Cappadocia"} date={"17.06.2023"}/>
-            <Blog country={"Germany"} city={"Stuttgart"} date={"20.12.2024"}/>*/}
         </div>
     )
 }
