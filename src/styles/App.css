@@ -2,3 +2,16 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.page-body {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.side-menu {
+    min-width: 300px;
+    background-color: #ccc;
+    border: 2px solid white;
+    border-radius: 25px;
+}

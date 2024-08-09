@@ -1,11 +1,6 @@
 
-export type BlogProps = {
+export type BlogProps = ArticleProps & {
     country: string,
-    city: string,
-    date: string,
-    text: string,
-    link: string,
-    onClick: () => void,
     img: string
 }
 
